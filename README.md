@@ -8,7 +8,7 @@ This proyect has one branch: technical-test. It is build with Spring-boot with f
 * technicatest-repository: it contains the classes which perform action in the database. These classes have the @Repository annotation
 * technicaltest-service: it contains the classes which performs some service, such as execute business-logic, perform calculation. These classes have the @Service annotation
 * technicaltest-web: it contains the classes which are the Spring Controller and the main class. These classes have the @RestController annotation. This Controller has the following methods:
-  * createAccount: returns the state of the action, the url is http://localhost:8080/account/create and you need to send a json object in the body request like than: {"name" : <accountName>, "currency" : <currency>, "balance" : `<balance>, "treasury" : <isTreasury>}
+  * createAccount: returns the state of the action, the url is http://localhost:8080/account/create and you need to send a json object in the body request like than: {"name" : <accountName>, "currency" : <currency>, "balance" : \<balance>, "treasury" : <isTreasury>}
   * searchAccount: returns the account to search, the url is http://localhost:8080/account/search/{accountName}, the {accountName} is the account to search
   * transferAmount: returns the state of the action, the url is http://localhost:8080/account/transfer and you need to send a json object in the body request like than: {"amount" : <amount>, "sourceAccount" : <sourceAccountName>, "destinyAccount" : <destinyAccountName>}
   * getAccounts: returns the data of all accounts, the url is http://localhost:8080/account/get
