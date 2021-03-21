@@ -28,7 +28,9 @@ public class AccountController {
                 state = accountService.addAccount(account);
             } catch (BadRequestException e) {
                 if (e.getMessage().contains("currency")) {
-                    state = new StateResult(Result.IC.getValue(), "The currency is invalid; it must be only three characters");
+                    state = new StateResult(Result.IC.getValue(), "The CURRENCY is invalid; it must be only three characters");
+                } else if (e.getMessage().contains("balance")) {
+                    state = new StateResult(Result.IB.getValue(), "The BALANCE is invalid");
                 }
             }
         }
