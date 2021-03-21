@@ -8,7 +8,8 @@ public enum Result {
     TB ("TRANSFER BLOCK"),
     ADE ("ACCOUNT DOESN'T EXIST"),
     BA ("BALANCE ADDED"),
-    IC ("INVALID CURRENCY");
+    IC ("INVALID CURRENCY"),
+    IB("INVALID BALANCY");;
 
     private final String value;
 
