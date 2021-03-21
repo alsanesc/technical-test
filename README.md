@@ -10,9 +10,9 @@ This proyect has one branch: technical-test. It is build with Spring-boot with f
 * technicaltest-web: it contains the classes which are the Spring Controller and the main class. These classes have the @RestController annotation. This Controller has the following methods:
   * createAccount: returns the state of the action, the url is http://localhost:8080/account/create and you need to send a json object in the body request like than: {"name" : &lt;accountName&gt;, "currency" : &lt;currency&gt;, "balance" : &lt;balance&gt;, "treasury" : &lt;isTreasury&gt;}
   * searchAccount: returns the account to search, the url is http://localhost:8080/account/search/{accountName}, the {accountName} is the account to search
-  * transferAmount: returns the state of the action, the url is http://localhost:8080/account/transfer and you need to send a json object in the body request like than: {"amount" : <amount>, "sourceAccount" : <sourceAccountName>, "destinyAccount" : <destinyAccountName>}
+  * transferAmount: returns the state of the action, the url is http://localhost:8080/account/transfer and you need to send a json object in the body request like than: {"amount" : &lt;amount&gt;, "sourceAccount" : &lt;sourceAccountName&gt;, "destinyAccount" : &lt;destinyAccountName&gt;}
   * getAccounts: returns the data of all accounts, the url is http://localhost:8080/account/get
-  * addBalance: returns the state of the action, the url is http://localhost:8080/account/add and you need to send a json object in the body request like than: {"name" : <accountName>, "currency" : <currency>, "balance" : <balance>, "treasury" : <isTreasury>}
+  * addBalance: returns the state of the action, the url is http://localhost:8080/account/add and you need to send a json object in the body request like than: {"name" : <accountName>, "currency" : &lt;currency&gt;, "balance" : &lt;balance&gt;, "treasury" : &lt;isTreasury&gt;}
 
 ## How to clone
 You can clone the repository wherever you want.
