@@ -1,0 +1,7 @@
+org\technical\test\api\StateResult.class
+org\technical\test\api\common\BaseObject.class
+org\technical\test\api\common\Result.class
+org\technical\test\api\exceptions\BadRequestException.class
+org\technical\test\api\Transfer.class
+org\technical\test\api\Account.class
+org\technical\test\api\exceptions\ErrorAware.class
