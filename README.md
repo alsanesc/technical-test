@@ -17,7 +17,7 @@ This proyect has one branch: technical-test. It is build with Spring-boot with f
 ## How to clone
 You can clone the repository wherever you want.
 ```bash
-git clone https://github.com/alsanesc/technical-test/dotfiles.git
+https://github.com/alsanesc/technical-test.git
 ```
 
 ## Installation
